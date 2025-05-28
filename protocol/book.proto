@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "/protocol";
+
+package protocol;
+
+message Book {
+   uint32 id = 1;
+   string author = 2;
+   string title = 3;
+   string publisher = 4;
+}
