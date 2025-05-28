@@ -1,1 +1,17 @@
+# Ignore database files
+*.db
+
+# Ignore log files
+*.log
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+
+# Ignore vendor directory
+/vendor/
+
+# Ignore Go build files
+*.out
 .env
